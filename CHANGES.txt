@@ -1,6 +1,11 @@
 kotti-sitemap
 =============
 
+0.1a2
+-----
+
+Fixing typo in __init__.py file which breaks install.
+
 0.1a1
 -----
 

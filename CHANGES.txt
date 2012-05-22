@@ -1,0 +1,12 @@
+kotti-sitemap
+=============
+
+0.1a1
+-----
+
+Changing license, author and url. Making some edits to README.
+
+0.1a0
+-----
+
+Initial release.

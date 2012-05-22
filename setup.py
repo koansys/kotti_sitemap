@@ -2,15 +2,15 @@ import os
 import sys
 from setuptools import setup, find_packages
 
-VERSION = __import__('kotti_sitemap').__version__
+VERSION = '0.1a1'
 
 here = os.path.abspath(os.path.dirname(__file__))
 try:
-    README = open(os.path.join(here, 'README.md')).read()
+    README = open(os.path.join(here, 'README.rst')).read()
 except IOError:
     README = ''
 try:
-    CHANGES = open(os.path.join(here, 'CHANGES.md')).read()
+    CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 except IOError:
     CHANGES = ''
 
@@ -31,7 +31,7 @@ setup(
         'kotti',
     ],
 
-    description='Kotti-Sitemap - an addon to easily create a sitemap for your Kotti project.',
+    description='Kotti Sitemap - an addon to easily create a sitemap for your Kotti project.',
     long_description='\n\n'.join([README, CHANGES]),
     keywords='kotti cms pyramid sitemap sqlalchemy',
 

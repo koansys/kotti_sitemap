@@ -23,9 +23,9 @@ if sys.argv[-1] == 'publish':  # upload to pypi
     sys.exit()
 
 setup(
-    name='kotti-sitemap',
+    name='kotti_sitemap',
     version=VERSION,
-    license='MIT License',
+    license='http://koansys.com/license.txt',
 
     install_requires=[
         'kotti',
@@ -35,10 +35,10 @@ setup(
     long_description='\n\n'.join([README, CHANGES]),
     keywords='kotti cms pyramid sitemap sqlalchemy',
 
-    author='Josh Finnie',
-    author_email='josh@koansys.com',
+    author='Koansys, LLC',
+    author_email='info@koansys.com',
 
-    url='https://github.com/joshfinnie/kotti-sitemap',
+    url='https://github.com/koansys/kotti_sitemap',
 
     packages=find_packages(),
     include_package_data=True,
@@ -49,7 +49,6 @@ setup(
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Framework :: Pyramid',

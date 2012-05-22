@@ -1,6 +1,11 @@
 kotti-sitemap Changes
 =====================
 
+0.1a7
+-----
+
+quote asterisks and other file names in CHANGES
+
 0.1a6
 -----
 
@@ -9,22 +14,22 @@ Changes to file structure to fall more inline with convention.
 0.1a5
 -----
 
-Removing *.rst from MANIFEST.in hoping to get Pypi rendering README.rst correctly.
+Removing `*.rst` from MANIFEST.in hoping to get Pypi rendering README.rst correctly.
 
 0.1a4
 -----
 
-Simplifying MANIFEST.in hoping to get Pypi rendering README.rst correctly.
+Simplifying `MANIFEST.in` hoping to get Pypi rendering README.rst correctly.
 
 0.1a3
 -----
 
-Adding *.pt to MANIFEST file in hopes of including template files.
+Adding `*.pt` to MANIFEST file in hopes of including template files.
 
 0.1a2
 -----
 
-Fixing typo in __init__.py file which breaks install.
+Fixing typo in `__init__.py` file which breaks install.
 
 0.1a1
 -----

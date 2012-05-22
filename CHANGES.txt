@@ -1,6 +1,11 @@
 kotti-sitemap
 =============
 
+0.1a3
+-----
+
+Adding *.pt to MANIFEST file in hopes of including template files.
+
 0.1a2
 -----
 

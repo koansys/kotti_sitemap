@@ -1,6 +1,10 @@
 kotti-sitemap
 =============
 
+0.1a5
+-----
+
+Removing *.rst from MANIFEST.in hoping to get Pypi rendering README.rst correctly.
 0.1a4
 -----
 

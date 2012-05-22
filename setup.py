@@ -2,11 +2,11 @@ import os
 import sys
 from setuptools import setup, find_packages
 
-VERSION = '0.1a7'
+VERSION = '0.1.1'
 
 here = os.path.abspath(os.path.dirname(__file__))
 try:
-    README = open(os.path.join(here, 'README.txt')).read()
+    README = open(os.path.join(here, 'README.rst')).read()
 except IOError:
     README = ''
 try:

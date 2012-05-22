@@ -1,6 +1,11 @@
 kotti-sitemap Changes
 =====================
 
+0.1.1
+-----
+
+Working. Switched back to rst README for github.
+
 0.1a7
 -----
 

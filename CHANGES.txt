@@ -5,6 +5,7 @@ kotti-sitemap Changes
 -----
 
 Working. Switched back to rst README for github.
+Update to ping github.
 
 0.1a7
 -----

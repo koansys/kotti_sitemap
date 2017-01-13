@@ -1,2 +1,7 @@
+
 def kotti_configure(settings):
-    settings['kotti.includes'] += ' kotti_sitemap.views'
+    settings['pyramid.includes'] += ' kotti_sitemap'
+
+
+def includeme(config):
+    config.scan(__name__)
